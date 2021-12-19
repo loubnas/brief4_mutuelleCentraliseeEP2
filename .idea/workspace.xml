@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1917b60-5d95-430c-af86-6ce4c3aa505c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mindrot_jbcrypt_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/com/example/brief3_mutuellecentralisee/models/ClientsImpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/com/example/brief3_mutuellecentralisee/models/UserImpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/brief3_mutuellecentralisee/dao/dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/brief3_mutuellecentralisee/dao/implimentation/ClientsImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/brief3_mutuellecentralisee/dao/implimentation/UsersImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/brief3_mutuellecentralisee/dao/interfaces/ClientsInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/brief3_mutuellecentralisee/dao/interfaces/UsersInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/brief3_mutuellecentralisee/models/ChartData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brief3_mutuelleCentralisee.iml" beforeDir="false" afterPath="$PROJECT_DIR$/brief3_mutuelleCentralisee.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brief3_mutuellecentralisee/helpers/jsonHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brief3_mutuellecentralisee/helpers/jsonHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brief3_mutuellecentralisee/helpers/validationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brief3_mutuellecentralisee/helpers/validationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brief3_mutuellecentralisee/homeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brief3_mutuellecentralisee/homeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brief3_mutuellecentralisee/loginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brief3_mutuellecentralisee/loginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brief3_mutuellecentralisee/models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brief3_mutuellecentralisee/models/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/brief3_mutuellecentralisee/home-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/brief3_mutuellecentralisee/home-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/dataFonctionnaire.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brief3_mutuellecentralisee/helpers/jsonHelper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brief3_mutuellecentralisee/helpers/jsonHelper$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brief3_mutuellecentralisee/helpers/jsonHelper$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brief3_mutuellecentralisee/helpers/jsonHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brief3_mutuellecentralisee/helpers/jsonHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brief3_mutuellecentralisee/helpers/validationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brief3_mutuellecentralisee/helpers/validationHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brief3_mutuellecentralisee/home-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brief3_mutuellecentralisee/home-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brief3_mutuellecentralisee/homeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brief3_mutuellecentralisee/homeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brief3_mutuellecentralisee/loginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brief3_mutuellecentralisee/loginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brief3_mutuellecentralisee/models/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brief3_mutuellecentralisee/models/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataFonctionnaire.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="22L5tbovNf42tHqwmxELyMtaX6U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.brief3_mutuellecentralisee.models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Java">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Java" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.brief3_mutuellecentralisee.application" />
+      <module name="brief3_mutuelleCentralisee" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientsImpTest.getAllClientsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="brief3_mutuelleCentralisee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.brief3_mutuellecentralisee.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.brief3_mutuellecentralisee.models" />
+      <option name="MAIN_CLASS_NAME" value="com.example.brief3_mutuellecentralisee.models.ClientsImpTest" />
+      <option name="METHOD_NAME" value="getAllClientsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientsImpTest.getAllClientsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="brief3_mutuelleCentralisee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.brief3_mutuellecentralisee.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.brief3_mutuellecentralisee.models" />
+      <option name="MAIN_CLASS_NAME" value="com.example.brief3_mutuellecentralisee.models.ClientsImpTest" />
+      <option name="METHOD_NAME" value="getAllClientsTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientsImpTest.getAllClientsTestEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="brief3_mutuelleCentralisee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.brief3_mutuellecentralisee.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.brief3_mutuellecentralisee.models" />
+      <option name="MAIN_CLASS_NAME" value="com.example.brief3_mutuellecentralisee.models.ClientsImpTest" />
+      <option name="METHOD_NAME" value="getAllClientsTestEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserImpTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="brief3_mutuelleCentralisee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.brief3_mutuellecentralisee.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.brief3_mutuellecentralisee.models" />
+      <option name="MAIN_CLASS_NAME" value="com.example.brief3_mutuellecentralisee.models.UserImpTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserImpTest.testLoginNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="brief3_mutuelleCentralisee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.brief3_mutuellecentralisee.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.brief3_mutuellecentralisee.models" />
+      <option name="MAIN_CLASS_NAME" value="com.example.brief3_mutuellecentralisee.models.UserImpTest" />
+      <option name="METHOD_NAME" value="testLoginNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserImpTest.testLogin" />
+        <item itemvalue="JUnit.UserImpTest.testLoginNull" />
+        <item itemvalue="JUnit.ClientsImpTest.getAllClientsTestEquals" />
+        <item itemvalue="JUnit.ClientsImpTest.getAllClientsTest" />
+        <item itemvalue="JUnit.ClientsImpTest.getAllClientsTest1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1917b60-5d95-430c-af86-6ce4c3aa505c" name="Default Changelist" comment="" />
+      <created>1639604249676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639604249676</updated>
+      <workItem from="1639604254413" duration="5743000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Tests/com/example/brief3_mutuellecentralisee/models/ClientsImpTest.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Tests/com/example/brief3_mutuellecentralisee/models/ClientsImpTest.java</url>
+          <line>26</line>
+          <properties class="com.example.brief3_mutuellecentralisee.models.ClientsImpTest" method="getAllClientsTestEquals">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

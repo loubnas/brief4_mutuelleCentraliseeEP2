@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: white;" styleClass="&lt;i class=&quot;fas fa-user&quot;&gt;&lt;/i&gt;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.brief3_mutuellecentralisee.loginController">
+   <left>
+      <AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #0598ff;" BorderPane.alignment="CENTER_LEFT">
+         <children>
+            <Label layoutX="82.0" layoutY="233.0" prefHeight="27.0" prefWidth="196.0" text="Welcome Back !" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="281.0" text="To keep connected with us enter your Login &amp; Password   " textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+               </font></Label>
+            <Label layoutX="99.0" layoutY="317.0" text="Start your journey with us" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+               </font>
+            </Label>
+            <QuadCurve controlX="117.66665649414062" controlY="-6.3333282470703125" endX="-99.00000762939453" endY="-62.333335876464844" fill="#213eff47" layoutX="99.0" layoutY="155.0" startX="-99.0" startY="-155.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <QuadCurve controlX="-50.0" controlY="-100.0" endX="51.999969482421875" endY="14.666656494140625" fill="#1279da" layoutX="298.0" layoutY="486.0" startX="-29.333343505859375" startY="14.6666259765625" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <QuadCurve controlX="-50.0" controlY="-100.0" endX="86.33334350585938" endY="33.66664123535156" fill="#63b5fe" layoutX="265.0" layoutY="50.0" startX="86.33334350585938" startY="133.66665649414062" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Ellipse fill="#4faaff" layoutX="21.0" layoutY="480.0" radiusX="33.0" radiusY="29.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+         </children></AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="500.0" prefWidth="415.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="23.0" fitWidth="32.0" layoutX="83.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@/user.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="32.0" layoutX="80.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@/key.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="93.0" fitWidth="132.0" layoutX="142.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@/profile.png" />
+               </image>
+            </ImageView>
+
+            <TextField fx:id="username" layoutX="121.0" layoutY="216.0" promptText="Login" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+            <PasswordField fx:id="password" layoutX="121.0" layoutY="279.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+            <Button layoutX="147.0" layoutY="355.0" mnemonicParsing="false" onAction="#loginClick" prefHeight="32.0" prefWidth="83.0" style="-fx-background-color: #0598ff;" text="Sign in" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

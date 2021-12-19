@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.brief3_mutuellecentralisee.homeController">
+   <children>
+      <TabPane layoutX="46.0" layoutY="8.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab style="-fx-background-color: #63b5fe; -fx-font-size: 13px;" text="Create Account client">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #0598ff;">
+                     <children>
+                        <AnchorPane layoutX="145.66666666666663" layoutY="49.0" prefHeight="473.0" prefWidth="613.0" style="-fx-background-color: white; -fx-border-radius: 3px;" AnchorPane.rightAnchor="141.0">
+                           <children>
+                              <TextField fx:id="nameCompany" layoutX="361.0" layoutY="354.0" opacity="0.45" prefHeight="27.0" prefWidth="193.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #0598ff;" />
+                              <DatePicker fx:id="dateStartWork" editable="false" layoutX="359.0" layoutY="85.0" opacity="0.45" prefHeight="27.0" prefWidth="184.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #0598ff;" />
+                              <TextField fx:id="firstName" layoutX="72.0" layoutY="143.0" opacity="0.45" prefHeight="27.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #0598ff;" />
+                              <TextField fx:id="lastName" layoutX="358.0" layoutY="145.0" opacity="0.45" prefHeight="27.0" prefWidth="187.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #0598ff;" />
+                              <RadioButton fx:id="cin" layoutX="79.0" layoutY="195.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" opacity="0.45" prefHeight="19.0" prefWidth="48.0" selected="true" style="-fx-background-color: transparent;" text="CIN">
+                                 <font>
+                                    <Font name="Arial" size="11.0" />
+                                 </font>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="identity" />
+                                 </toggleGroup></RadioButton>
+                              <RadioButton fx:id="pass" layoutX="138.0" layoutY="196.0" mnemonicParsing="false" opacity="0.45" prefHeight="17.0" prefWidth="77.0" text="Passport" toggleGroup="$identity">
+                                 <font>
+                                    <Font name="Arial" size="11.0" />
+                                 </font></RadioButton>
+                               <TextField fx:id="email" layoutX="74.0" layoutY="278.0" opacity="0.45" prefHeight="27.0" prefWidth="181.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #0598ff;" />
+                              <TextArea fx:id="adress" layoutX="359.0" layoutY="267.0" opacity="0.45" prefHeight="39.0" prefWidth="190.0" promptText="Adress" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #0598ff;" />
+                              <ComboBox fx:id="phoneCode" layoutX="359.0" layoutY="212.0" opacity="0.45" prefHeight="27.0" prefWidth="73.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #0598ff;">
+                                <items>
+
+                                </items>
+                              </ComboBox>
+                              <Button layoutX="236.0" layoutY="406.0" mnemonicParsing="false" onAction="#addClientClick" prefHeight="40.0" prefWidth="129.0" style="-fx-background-color: #0598ff; -fx-border-radius: 5px;" text="Sign up" textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="12.0" />
+                                 </font></Button>
+                              <Label layoutX="153.0" layoutY="9.0" prefHeight="34.0" prefWidth="328.0" text="Create Account Client " textFill="#0598ff">
+                                 <font>
+                                    <Font name="Berlin Sans FB Demi Bold" size="29.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="362.0" layoutY="332.0" opacity="0.47" text="Name company">
+                                 <font>
+                                    <Font name="Arial" size="12.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="cinpass" layoutX="74.0" layoutY="210.0" opacity="0.45" prefHeight="27.0" prefWidth="177.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #0598ff;" />
+                              <Label layoutX="276.0" layoutY="148.0">
+                                 <font>
+                                    <Font name="Arial Narrow" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="79.0" layoutY="130.0" opacity="0.47" text="First Name">
+                                 <font>
+                                    <Font name="Arial" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="356.0" layoutY="66.0" opacity="0.47" text=" Date Start work">
+                                 <font>
+                                    <Font name="Arial" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="360.0" layoutY="132.0" opacity="0.47" text="Last Name">
+                                 <font>
+                                    <Font name="Arial" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="361.0" layoutY="195.0" opacity="0.47" text="Phone">
+                                 <font>
+                                    <Font name="Arial" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="77.0" layoutY="260.0" opacity="0.47" text="Email">
+                                 <font>
+                                    <Font name="Arial" size="12.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="phone" layoutX="429.0" layoutY="212.0" opacity="0.45" prefHeight="27.0" prefWidth="117.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #0598ff;" />
+                              <TextField fx:id="NumbadgeWork" layoutX="75.0" layoutY="350.0" opacity="0.45" prefHeight="27.0" prefWidth="179.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #0598ff;" />
+                              <DatePicker fx:id="dateRegister" editable="false" layoutX="71.0" layoutY="83.0" opacity="0.45" prefHeight="27.0" prefWidth="184.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #0598ff;" />
+                              <Label layoutX="75.0" layoutY="68.0" opacity="0.47" text=" Date register">
+                                 <font>
+                                    <Font name="Arial" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="77.0" layoutY="328.0" opacity="0.47" text="N badge work">
+                                 <font>
+                                    <Font name="Arial" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children></AnchorPane>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+          <Tab style="-fx-background-color: #63b5fe; -fx-font-size: 13px;" text="List of clients">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="409.0" prefWidth="642.0" style="-fx-background-color: #0598ff;">
+                     <children>
+                        <TableView fx:id="dataGrid" layoutX="7.0" layoutY="22.0" prefHeight="338.0" prefWidth="687.0" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="80.0">
+                          <columns>
+                            <TableColumn fx:id="col_nameCompany" prefWidth="101.3333158493042" style="-fx-backend-color: white;" text="Name Company" />
+                            <TableColumn fx:id="col_dateStartWork" minWidth="0.0" prefWidth="98.6666488647461" style="-fx-backend-color: white;" text="Date start work" />
+                              <TableColumn fx:id="col_firstName" prefWidth="76.66670227050781" style="-fx-backend-color: white;" text="First Name" />
+                              <TableColumn fx:id="col_lastName" prefWidth="82.66668701171875" style="-fx-backend-color: white;" text="Last Name " />
+                              <TableColumn fx:id="col_cinpass" prefWidth="98.0" style="-fx-backend-color: white;" text="CIN/Passport" />
+                              <TableColumn fx:id="col_phone" minWidth="6.6666259765625" prefWidth="67.33328247070312" style="-fx-backend-color: white;" text="Phone" />
+                              <TableColumn fx:id="col_email" minWidth="0.0" prefWidth="108.0" style="-fx-backend-color: white;" text="Email" />
+                              <TableColumn fx:id="col_adress" prefWidth="90.6666259765625" style="-fx-backend-color: white;" text="Adress" />
+                              <TableColumn fx:id="col_dateRegister" prefWidth="75.0" text="dateRegister" />
+                              <TableColumn fx:id="col_numBadgework" prefWidth="75.0" text="NumBadgeWork" />
+                          </columns>
+                        </TableView>
+                        <TextField fx:id="filter" layoutX="262.0" layoutY="29.0" onKeyTyped="#filterHandler" prefHeight="29.0" prefWidth="217.0" style="-fx-background-color: white;" />
+                        <ComboBox fx:id="company" layoutX="12.0" layoutY="29.0" onAction="#companyHandler" prefHeight="29.0" prefWidth="217.0" style="-fx-background-color: white; -fx-border-width: 0px 0px 2px 0px;" />
+                        <Label layoutX="12.0" layoutY="11.0" prefHeight="15.0" prefWidth="141.0" text="Name Comapny" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="263.0" layoutY="11.0" prefHeight="15.0" prefWidth="141.0" text="Search" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab style="-fx-background-color: #63b5fe; -fx-font-size: 13px;" text="Statistics">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #0598ff;">
+                     <children>
+                        <Label layoutX="56.0" layoutY="34.0" textFill="WHITE">
+                           <font>
+                              <Font name="Arial" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label ellipsisString="" layoutX="353.0" text="Statistics Clients  :" textFill="WHITE" underline="true">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <ScrollPane layoutX="30.0" layoutY="57.0" prefHeight="504.0" prefWidth="862.0">
+                          <content>
+                            <AnchorPane prefHeight="0.0" prefWidth="0.0">
+                                 <children>
+                                    <LineChart fx:id="chart" prefHeight="498.0" prefWidth="559.0">
+                                       <xAxis>
+                                          <CategoryAxis fx:id="DateAxis" side="BOTTOM" />
+                                       </xAxis>
+                                       <yAxis>
+                                          <NumberAxis fx:id="CountAxis" side="LEFT" />
+                                       </yAxis>
+                                    </LineChart>
+                                 </children></AnchorPane>
+                          </content>
+                        </ScrollPane>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
